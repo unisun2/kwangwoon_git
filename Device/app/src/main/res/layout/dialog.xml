@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a server address" />
+
+    <EditText
+        android:inputType="phone"
+        android:layout_width="150dp"
+        android:maxLength="15"
+        android:layout_height="wrap_content"
+        android:text="192.168.1.110"
+        android:id="@+id/serverAddr"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a port number"/>
+
+    <EditText
+        android:inputType="number"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:maxLength="5"
+        android:text="41009"
+        android:id="@+id/serverPort"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a password"/>
+
+    <EditText
+        android:inputType="numberPassword"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:maxLength="20"
+        android:id="@+id/password"/>
+
+</LinearLayout>

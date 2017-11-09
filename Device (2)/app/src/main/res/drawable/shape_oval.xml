@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- 면색 지정하기 -->
+    <solid android:color="#F00"/>
+
+    <!-- 선색 및 선 두께 지정하기 -->
+    <stroke
+        android:width="3dp"
+        android:color="#F00"/>
+
+</shape>
