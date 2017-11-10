@@ -13,6 +13,21 @@ lirc
 핸드폰
 안드로이드 4.0 이상
 
+# How to use
+라즈베리파이 master에는 wiringPi, openssl-dev, lirc를 apt-get 으로 설치
+
+
+
+
+라즈베리파이 slave에는 wiringPi, lirc apt-get 으로 설치
+
+
+안드로이드 - apk로 설치
+안드로이드 웨어 - android studio로 설치
+
+
+
+
 
 # files
 Device - 안드로이드 핸드폰 어플리케이션
