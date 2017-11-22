@@ -1,4 +1,5 @@
 all:
-	gcc reader_master.c -o reader_master
-	gcc solo_master.c -o solo_master -lwiringPi
-	gcc writer_dht11.c -o writer_dht11 -lwiringPi
+	gcc solo_master.c -lwiringPi -o solomaster
+	gcc reader_master.c -lwiringPi -o readermaster
+	gcc writer_dht11.c -lwiringPi -o writerdht11
+	gcc maker.c -lcrypto -o maker
